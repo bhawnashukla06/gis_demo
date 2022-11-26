@@ -89,10 +89,15 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/Control.Layers.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "91a63326-27a1-484b-8655-c66b9ee86f06"
   }
 }
