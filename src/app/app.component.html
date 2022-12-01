@@ -5,31 +5,31 @@
 
 <div class="overlay-control">
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('demo_data')" />
+    <input type="checkbox" (click)="changeLayer('demo_data')" [checked]="layers['demo_data']" />
     <label>Base Layer</label>
   </div>
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('category_style')" />
+    <input type="checkbox" (click)="changeLayer('category_style')" [checked]="layers['category_style']" />
     <label>Category Style Layer</label>
   </div>
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('bubble_style')" />
+    <input type="checkbox" (click)="changeLayer('bubble_style')" [checked]="layers['bubble_style']" />
     <label>Bubble Style Layer</label>
   </div>
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('cluster_style')" />
+    <input type="checkbox" (click)="changeLayer('cluster_style')" [checked]="layers['cluster_style']"/>
     <label>Cluster Style Layer</label>
   </div>
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('graduated_style')" />
+    <input type="checkbox" (click)="changeLayer('graduated_style')" [checked]="layers['graduated_style']" />
     <label>Graduated Style Layer</label>
   </div>
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('gradient_style')" />
+    <input type="checkbox" (click)="changeLayer('gradient_style')" [checked]="layers['gradient_style']" />
     <label>Gradient Style Layer</label>
   </div>
   <div class="control">
-    <input type="checkbox" (click)="changeLayer('heat_style')" />
+    <input type="checkbox" (click)="changeLayer('heat_style')" [checked]="layers['heat_style']"/>
     <label>Heat Style Layer</label>
   </div>
 </div>
